@@ -71,4 +71,15 @@ while 1:
     else:
             print("")
             print("Command not recognised")
-        
+
+            import os
+
+import os
+
+
+while True:
+            try:
+                response = self.conn.getresponse().read()
+                print("response")
+            except:
+                os.system("Receiver.py")
